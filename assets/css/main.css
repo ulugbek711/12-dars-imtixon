@@ -1,0 +1,790 @@
+@font-face {
+    font-family: "Lato400";
+    src: url("../fonts/lato.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+.backround {
+    background-image: url("../img/bacground_main.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.box {
+    width: 400px;
+    height: 113px;
+}
+
+
+.nav_title {
+    padding: 20px 0px 600px 0px;
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    width: 889px;
+
+}
+
+.main_btn {
+    width: 221px;
+    height: 54px;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-family: "Lato400";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    background-color: transparent;
+    transition: .5s;
+}
+
+
+.main_btn:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.main {
+    background-color: #000;
+    padding: 200px 135px 200px 135px;
+}
+
+
+
+
+
+
+
+
+
+.section {
+    background-color: #000;
+}
+
+.main_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFF;
+
+
+}
+
+.cards {
+    display: flex;
+    padding-bottom: 100px;
+
+}
+
+.cards1 {
+    display: flex;
+}
+
+.card {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card1 {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card_text {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+
+.main_p {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card1 img {
+    width: 600px;
+}
+
+.card_text1 {
+    padding-left: 42px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.card_text2 {
+    padding-right: 70px;
+}
+.card_text3 {
+    padding-left: 42px;
+    padding-right: 20px;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    padding: 50px 135px 0px 135px;
+    padding-bottom: -200px;
+
+}
+
+.ptext {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 16px;
+
+}
+
+
+
+
+
+
+
+
+.row p {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 32px;
+
+}
+
+.row_img {
+    padding-bottom: 80px;
+
+}
+
+.rowa_img {
+    padding-bottom: 200px;
+}
+
+
+.roww_img{
+    padding-bottom: 200px;
+    z-index: 1;
+}
+.tesla_img{
+    padding: 63px 170px 100px 170px;
+    z-index: 1;
+
+}
+.rowboxrow{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    padding: 50px 150px 0px 150px;
+    padding-bottom: -200px;
+
+}
+.rowboxrowbox{
+    width: 800px;
+    padding: 63px 120px 156px 120px;
+}
+.cards_two,
+.footer_content {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.footer_content {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.footer {
+    background-image: url("../img/623px-Cybertrucklogo.png");
+    width: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.black_background {
+    background-color: #000;
+    padding-bottom: 5 0px;
+}
+.footer_content,
+.main {
+    -webkit-box-align: center
+}
+
+.footer,
+.main {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1310px) {
+    .child1 img {
+        width: 500px;
+        height: 336px;
+        font-size: 18px;
+
+    }
+
+    .child_text1 {
+        font-size: 14px;
+    }
+
+    .child_textt {
+        font-size: 18px;
+    }
+
+    .child_text2 {
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width:1270px) {
+    .card1 img {
+        width: 450px;
+    }
+    .card img {
+        width: 450px;
+    }
+
+}
+@media only screen and (max-width:1200px) {
+    .card1 img {
+        width: 350px;
+        height: 300px;
+    }
+    .card img {
+        width: 350px;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width:1150px) {
+    .child1 img {
+        width: 450px;
+        height: 336px;
+        font-size: 18px;
+
+    }
+
+}
+@media only screen and (max-width:1060px) {
+    
+.card_text1 {
+    padding-left: 20px;
+
+}
+
+.card_text2 {
+    padding-right: 40px;
+}
+.card_text3 {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+}
+
+
+@media only screen and (max-width:1030px) {
+    .main {
+   
+    }
+
+    .box1 {
+        padding-top: 50px;
+
+
+    }
+
+}
+
+@media only screen and (max-width:1000px){
+    .main_header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #FFF;
+    
+    
+    }
+    .footer {
+        width: 100%
+    }
+
+    .footer_cars {
+        width: 50%
+    }
+    .card_text1 {
+        padding-left: 0px;
+    
+    }
+    .card_text3{
+        padding-left: 0px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    
+    }
+    
+    .cards1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card1 img {
+        width: 655px;
+   
+    }
+    .card img {
+        width: 655px;
+    
+    }
+    .card_text2{
+        padding-bottom: 20px;
+    }
+    .card_text1{
+        padding-bottom: 16px;
+        
+    }
+    .card_text3{
+        padding-bottom: 20px;
+    }
+
+   
+}
+
+@media only screen and (max-width:900px) {
+    .child1 img {
+        width: 400px;
+        height: 330px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+        padding: 50px 50px 0px 50px;
+
+    }
+    .roww_img{
+        padding-bottom: 100px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+        padding: 50px 50px 0px 50px;
+
+    }
+    .card img {
+        width: 750px;
+    
+    }
+    .card1 img {
+        width: 750px;
+    
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+  
+    .card img {
+        width: 700px;
+    
+    }
+    .card1 img {
+        width: 700px;
+    
+    }
+    .rowa_img {
+        padding-bottom: 100px;
+    }
+
+}
+@media only screen and (max-width:850px) {
+    
+    .card_text1 {
+        padding-left: 10px;
+    
+    }
+    
+    .card_text2 {
+        padding-right: 20px;
+    }
+    .card_text3 {
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+}
+
+
+@media only screen and (max-width:835px) {
+    .nav_title {
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width:801px) {
+    .main {
+        background-color: #000;
+        padding-left: 50px;
+    }
+
+    .child1 img {
+        width: 600px;
+        height: 336px;
+    }
+
+    .box1 {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+
+
+    }
+
+    .child_text1 {
+        padding-bottom: 28px;
+    }
+
+    .child_text2 {
+        padding-bottom: 28px;
+    }
+
+    .box2 {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 50px;
+
+
+    }
+
+    .child_textt {
+        padding-left: 0px;
+    }
+
+    .child_text2 {
+        padding-left: 0px;
+    }
+    .card1 img {
+        width: 600px;
+   
+    }
+    .card img {
+        width: 600px;
+    
+    }
+    
+
+}
+
+@media only screen and (max-width:770px) {
+    .child1 img {
+        width: 550px;
+    }
+    .container {
+        padding: 0
+    }
+
+}
+@media only screen and (max-width:750px) {
+    .card1 img {
+        width: 550px;
+   
+    }
+    .card img {
+        width: 550px;
+    
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .child1 img {
+        width: 500px;
+    }
+    
+
+}
+
+@media only screen and (max-width:660px) {
+
+    .main {
+        background-color: #000;
+        padding: 50px;
+    }
+
+    .child {
+        width: 500px;
+    }
+    .card img{
+        width: 500px;
+    }
+    .card1 img{
+        width: 500px;
+    }
+
+}
+
+@media only screen and (max-width:620px) {
+
+    .main {
+        background-color: #000;
+        padding: 40px;
+    }
+
+    .child {
+        width: 450px;
+    }
+
+    .child1 img {
+        width: 450px;
+    }
+
+}
+@media only screen and (max-width:600px) {
+    .card img{
+        width: 450px;
+    }
+    .card1 img{
+        width: 450px;
+    }
+    .rowa_img {
+        padding-bottom: 70px;
+    }
+
+}
+@media only screen and (max-width:530px) {
+    .card1 img {
+        width: 400px;
+   
+    }
+    .card img {
+        width: 400px;
+    
+    }
+
+}
+
+@media only screen and (max-width:520px) {
+
+    .main {
+        background-color: #000;
+    }
+
+    .child {
+        width: 400px;
+    }
+
+    .child1 img {
+        width: 400px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:500px) {
+    .box {
+        width: 300px;
+    }
+
+    .nav_title {
+        width: 350px;
+    }
+    .row {
+        padding: 50px 50px 0px 50px;
+    
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+    .main {
+        background-color: #000;
+
+    }
+
+    .child {
+        width: 350px;
+    }
+
+    .child1 img {
+        width: 350px;
+    }
+    .card1 img {
+        width: 350px;
+   
+    }
+    .card img {
+        width: 350px;
+    
+    }
+
+}
+@media only screen and (max-width:430px) {
+    .card1 img {
+        width: 300px;
+   
+    }
+    .card img {
+        width: 300px;
+    
+    }
+
+}
+
+
+
+@media only screen and (max-width:425px) {
+
+    .main {
+        background-color: #000;
+
+    }
+
+    .child {
+        width: 250px;
+    }
+
+    .child1 img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width:390px) {
+    .box {
+        width: 250px;
+    }
+
+    .nav_title {
+        width: 250px;
+    }
+
+}
+@media only screen and (max-width:360px) {
+    .card1 img {
+        width: 290px;
+   
+    }
+    .card img {
+        width: 290px;
+    
+    }
+    .rowa_img {
+        padding-bottom: 50px;
+    }
+
+}
+@media only screen and (max-width:320px) {
+    .main{
+        padding-left: 10px;
+    }
+    .row {
+        padding: 25px 10px 0px 10px;
+    
+    }
+
+}
+@media only screen and (max-width:310px) {
+    .card1 img {
+        width: 200px;
+   
+    }
+    .card img {
+        width: 200px;
+    
+    }
+
+}
